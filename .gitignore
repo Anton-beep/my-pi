@@ -1,0 +1,8 @@
+# Secrets
+auth.json
+
+# Private session transcripts
+sessions/
+
+# Local model/provider cache
+models-store.json
