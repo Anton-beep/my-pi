@@ -6,3 +6,5 @@ sessions/
 
 # Local model/provider cache
 models-store.json
+
+web-search-cache/

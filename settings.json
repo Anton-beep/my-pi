@@ -2,5 +2,12 @@
   "lastChangelogVersion": "1.0.2",
   "defaultProvider": "zai",
   "defaultModel": "glm-5.3-flash",
-  "defaultThinkingLevel": "max"
+  "defaultThinkingLevel": "max",
+  "packages": [
+    "npm:pi-subagents",
+    "npm:pi-web-access",
+    "npm:@juicesharp/rpiv-ask-user-question",
+    "npm:@juicesharp/rpiv-todo",
+    "git:github.com/obra/superpowers"
+  ]
 }
