@@ -1,7 +1,7 @@
 {
-  "lastChangelogVersion": "1.0.2",
-  "defaultProvider": "zai",
-  "defaultModel": "glm-5.3-flash",
+  "lastChangelogVersion": "1.0.3",
+  "defaultProvider": "opencode-go",
+  "defaultModel": "deepseek-v4.1-flash",
   "defaultThinkingLevel": "max",
   "packages": [
     "npm:pi-subagents",
@@ -9,5 +9,23 @@
     "npm:@juicesharp/rpiv-ask-user-question",
     "npm:@juicesharp/rpiv-todo",
     "git:github.com/obra/superpowers"
-  ]
+  ],
+  "subagents": {
+    "defaultProvider": "opencode-go",
+    "defaultModel": "opencode-go/deepseek-v4.1-flash",
+    "agentOverrides": {
+      "scout": { "model": "opencode-go/deepseek-v4.1-flash" },
+      "researcher": { "model": "opencode-go/deepseek-v4.1-flash" },
+      "reviewer": { "model": "opencode-go/deepseek-v4.1-flash" },
+      "oracle": { "model": "opencode-go/deepseek-v4.1-flash" },
+      "worker": { "model": "opencode-go/deepseek-v4.1-flash" },
+      "delegate": { "model": "opencode-go/deepseek-v4.1-flash" },
+      "evidence-auditor": { "model": "opencode-go/deepseek-v4.1-flash" }
+    },
+    "modelScope": {
+      "enforce": true,
+      "strict": true,
+      "allow": ["opencode-go/deepseek-v4.1-flash"]
+    }
+  }
 }
