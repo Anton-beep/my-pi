@@ -1,5 +1,5 @@
 {
-  "lastChangelogVersion": "1.0.3",
+  "lastChangelogVersion": "1.0.4",
   "defaultProvider": "opencode-go",
   "defaultModel": "deepseek-v4.1-flash",
   "defaultThinkingLevel": "max",
@@ -14,18 +14,34 @@
     "defaultProvider": "opencode-go",
     "defaultModel": "opencode-go/deepseek-v4.1-flash",
     "agentOverrides": {
-      "scout": { "model": "opencode-go/deepseek-v4.1-flash" },
-      "researcher": { "model": "opencode-go/deepseek-v4.1-flash" },
-      "reviewer": { "model": "opencode-go/deepseek-v4.1-flash" },
-      "oracle": { "model": "opencode-go/deepseek-v4.1-flash" },
-      "worker": { "model": "opencode-go/deepseek-v4.1-flash" },
-      "delegate": { "model": "opencode-go/deepseek-v4.1-flash" },
-      "evidence-auditor": { "model": "opencode-go/deepseek-v4.1-flash" }
+      "scout": {
+        "model": "opencode-go/deepseek-v4.1-flash"
+      },
+      "researcher": {
+        "model": "opencode-go/deepseek-v4.1-flash"
+      },
+      "reviewer": {
+        "model": "opencode-go/deepseek-v4.1-flash"
+      },
+      "oracle": {
+        "model": "opencode-go/deepseek-v4.1-flash"
+      },
+      "worker": {
+        "model": "opencode-go/deepseek-v4.1-flash"
+      },
+      "delegate": {
+        "model": "opencode-go/deepseek-v4.1-flash"
+      },
+      "evidence-auditor": {
+        "model": "opencode-go/deepseek-v4.1-flash"
+      }
     },
     "modelScope": {
       "enforce": true,
       "strict": true,
-      "allow": ["opencode-go/deepseek-v4.1-flash"]
+      "allow": [
+        "opencode-go/deepseek-v4.1-flash"
+      ]
     }
   }
 }
