@@ -1,3 +1,9 @@
+---
+name: library-first
+description: Library-first philosophy when writing any new piece of code. Use this when creating new code.
+---
+
+
 # Library-First Implementation
 
 Before writing new utility, helper, parser, formatter, validator, algorithm, data structure, date/time logic, serialization logic, or other generic functionality:
