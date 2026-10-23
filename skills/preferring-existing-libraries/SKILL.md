@@ -1,6 +1,6 @@
 ---
-name: library-first
-description: Library-first philosophy when writing any new piece of code. Use this when creating new code.
+name: preferring-existing-libraries
+description: Use before hand-writing a helper, parser, validator, retry or backoff loop, CLI flag handler, config loader, or utility, and when creating a new module, package, script, or repository. Triggers "can this be replaced with an existing tool", "why are we defining our own", "don't reinvent this", "we already have a library for that".
 ---
 
 

@@ -1,6 +1,6 @@
 ---
-name: refactor
-description: Refactor code to improve its structure and readability without changing behavior. Use when the user asks to refactor, clean up, simplify, or restructure code.
+name: refactoring-safely
+description: Use when a file is too large or carries too many responsibilities, when asked to split, merge, simplify, tidy, or restructure code, or before planning a refactor across several files. Triggers "too much for any file", "1800 LOC", "split in smaller pieces", "too many responsibilities", "merge X and Y", "simplify the CLI".
 ---
 
 

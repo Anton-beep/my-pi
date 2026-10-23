@@ -1,6 +1,6 @@
 ---
 name: writing-code-comments
-description: Use whenever writing, editing, or refactoring source code in any language, to decide whether a code comment or docstring is needed at all and, if so, how to write it. This skill defines the narrow cases where a comment earns its place.
+description: Use when adding, changing, or removing a comment or docstring, when deciding whether a piece of code needs an explanatory comment at all, or when reviewing a diff that adds comments.
 ---
 
 # Writing code comments
