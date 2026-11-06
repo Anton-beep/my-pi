@@ -1,7 +1,7 @@
 {
   "lastChangelogVersion": "1.5.0",
   "defaultProvider": "mistral",
-  "defaultModel": "deepseek-v4.1-flash-1017",
+  "defaultModel": "mistral-large-4",
   "defaultThinkingLevel": "max",
   "packages": [
     "npm:pi-subagents",
