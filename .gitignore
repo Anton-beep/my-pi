@@ -14,3 +14,10 @@ missions/
 run-history.jsonl
 
 extensions/herdr-agent-state.ts
+
+bin/
+install/
+
+skills/omarchy-app
+
+themes/omarchy-system.json
