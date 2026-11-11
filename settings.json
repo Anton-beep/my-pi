@@ -1,7 +1,7 @@
 {
-  "lastChangelogVersion": "1.5.0",
-  "defaultProvider": "mistral",
-  "defaultModel": "deepseek-v4-1-flash-1017",
+  "lastChangelogVersion": "1.5.2",
+  "defaultProvider": "opencode-go",
+  "defaultModel": "deepseek-v4.1-flash",
   "defaultThinkingLevel": "max",
   "packages": [
     "npm:pi-subagents",
@@ -11,41 +11,41 @@
     "npm:pi-open-tui"
   ],
   "subagents": {
-    "defaultProvider": "mistral",
-    "defaultModel": "mistral/deepseek-v4-1-flash-1017",
+    "defaultProvider": "opencode-go",
+    "defaultModel": "opencode-go/deepseek-v4.1-flash",
     "agentOverrides": {
       "scout": {
-        "model": "mistral/deepseek-v4-1-flash-1017"
+        "model": "opencode-go/deepseek-v4.1-flash"
       },
       "researcher": {
-        "model": "mistral/deepseek-v4-1-flash-1017"
+        "model": "opencode-go/deepseek-v4.1-flash"
       },
       "reviewer": {
-        "model": "mistral/deepseek-v4-1-flash-1017"
+        "model": "opencode-go/deepseek-v4.1-flash"
       },
       "oracle": {
-        "model": "mistral/deepseek-v4-1-flash-1017"
+        "model": "opencode-go/deepseek-v4.1-flash"
       },
       "worker": {
-        "model": "mistral/deepseek-v4-1-flash-1017"
+        "model": "opencode-go/deepseek-v4.1-flash"
       },
       "delegate": {
-        "model": "mistral/deepseek-v4-1-flash-1017"
+        "model": "opencode-go/deepseek-v4.1-flash"
       },
       "evidence-auditor": {
-        "model": "mistral/deepseek-v4-1-flash-1017"
+        "model": "opencode-go/deepseek-v4.1-flash"
       }
     },
     "modelScope": {
       "enforce": true,
       "strict": true,
       "allow": [
-        "mistral/deepseek-v4-1-flash-1017"
+        "opencode-go/deepseek-v4.1-flash"
       ]
     }
   },
   "extensionChangelogVersions": {
-    "{\"source\":\"npm:pi-subagents\",\"scope\":\"user\"}": "0.87.0",
+    "{\"source\":\"npm:pi-subagents\",\"scope\":\"user\"}": "0.88.0",
     "{\"source\":\"npm:pi-web-access\",\"scope\":\"user\"}": "0.47.0"
   }
 }
