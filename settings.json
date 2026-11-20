@@ -1,7 +1,7 @@
 {
   "lastChangelogVersion": "1.5.2",
-  "defaultProvider": "opencode-go",
-  "defaultModel": "deepseek-v4.1-flash",
+  "defaultProvider": "mistral",
+  "defaultModel": "deepseek-v4-1-flash-1017",
   "defaultThinkingLevel": "max",
   "packages": [
     "npm:pi-subagents",
@@ -11,41 +11,43 @@
     "npm:pi-open-tui"
   ],
   "subagents": {
-    "defaultProvider": "opencode-go",
-    "defaultModel": "opencode-go/deepseek-v4.1-flash",
+    "defaultProvider": "mistral",
+    "defaultModel": "mistral/deepseek-v4-1-flash-1017",
     "agentOverrides": {
       "scout": {
-        "model": "opencode-go/deepseek-v4.1-flash"
+        "model": "mistral/deepseek-v4-1-flash-1017"
       },
       "researcher": {
-        "model": "opencode-go/deepseek-v4.1-flash"
+        "model": "mistral/deepseek-v4-1-flash-1017"
       },
       "reviewer": {
-        "model": "opencode-go/deepseek-v4.1-flash"
+        "model": "mistral/deepseek-v4-1-flash-1017"
       },
       "oracle": {
-        "model": "opencode-go/deepseek-v4.1-flash"
+        "model": "mistral/deepseek-v4-1-flash-1017"
       },
       "worker": {
-        "model": "opencode-go/deepseek-v4.1-flash"
+        "model": "mistral/deepseek-v4-1-flash-1017"
       },
       "delegate": {
-        "model": "opencode-go/deepseek-v4.1-flash"
+        "model": "mistral/deepseek-v4-1-flash-1017"
       },
       "evidence-auditor": {
-        "model": "opencode-go/deepseek-v4.1-flash"
+        "model": "mistral/deepseek-v4-1-flash-1017"
       }
     },
     "modelScope": {
       "enforce": true,
       "strict": true,
       "allow": [
-        "opencode-go/deepseek-v4.1-flash"
+        "mistral/deepseek-v4-1-flash-1017"
       ]
     }
   },
   "extensionChangelogVersions": {
-    "{\"source\":\"npm:pi-subagents\",\"scope\":\"user\"}": "0.88.0",
-    "{\"source\":\"npm:pi-web-access\",\"scope\":\"user\"}": "0.47.0"
-  }
+    "{\"source\":\"npm:pi-subagents\",\"scope\":\"user\"}": "0.88.1",
+    "{\"source\":\"npm:pi-web-access\",\"scope\":\"user\"}": "0.48.0",
+    "{\"source\":\"npm:pi-open-tui\",\"scope\":\"user\"}": "0.4.6"
+  },
+  "deviceId": "520b9395-1eb9-4868-b061-823ad8a3bec7"
 }

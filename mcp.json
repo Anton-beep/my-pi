@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "trello": {
+      "url": "https://mcp.trello.com/v1",
+      "description": "Read and write Trello boards, cards and checklists"
+    }
+  }
+}
