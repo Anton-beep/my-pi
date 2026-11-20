@@ -31,6 +31,7 @@ uvx --from docling docling \
   --to md \
   --image-export-mode referenced \
   --table-mode accurate \
+  --device cpu \
   --output "$OUT_DIR" \
   "$PDF"
 ```
